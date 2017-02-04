@@ -1,0 +1,169 @@
+
+/*loading*/
+.loading{
+   background-image: url(../img/gif-animado-constelaciones.gif);
+   text-align: center;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   z-index: 999;
+}
+.chask{
+    width: 221px;
+    margin-top: 223px;
+    text-align: center;
+    position: absolute;
+    right: 91px;
+}
+.preloader .img {
+   margin: 0;
+   line-height: 30px;
+   font-size: 25px;
+   font-weight: bold;
+   position: absolute;
+   left: 50%;
+   transform: translateY(-100%);
+   text-align: center;
+}
+
+.cerrar {
+   transform: translateX(-100%);
+   transition: all 0.5s;
+}
+
+
+.principal{
+    background-image: url(../img/fondo.jpg);
+    height: 100vh;
+}
+.sign-up{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.logo{
+    height: 270px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.btn{
+    width: 100%;
+    padding: 10px 0px 40px 0px; 
+    margin-bottom: 20px;
+}
+.facebook-btn{
+    background-color: #3B5998;
+}
+.google-btn{
+    background-color: #EA4335;
+}
+.log-in-btn{
+    background-color: transparent;
+    color: white;
+    border: 3px solid lightblue;
+}
+.sign-up-btn{
+    background-color: transparent;
+    color: white;
+    border: 3px solid lightblue;
+}
+
+
+.logo-opciones{
+    width: 40%;
+    margin-top: 29px;
+}
+.cliente{
+    width: 60%;
+    position: absolute;
+    top: 460px;
+    right: 30px
+}
+.consultor{
+    width: 60%;
+    position: absolute;
+    top: 240px;
+    left: 30px;
+}
+
+
+#test-servicios, #test-productos{
+    background-image: url(../img/gif-animado-constelaciones.gif);
+    height: 100vh;
+}
+.servicios, .productos{
+    padding-top: 50px;
+}
+
+.button{
+    border-radius: 18px;
+    margin-top: 18px;
+    margin-left: 12px;
+    width: 37%;
+    height: 146px;
+    margin-right: 12px;
+    opacity: 0.7;
+}
+.button-servicio{
+    background-color: #DDC90E;
+    border: 2px solid #DDC90E;
+}
+.button-producto{
+    background-color: #33C4E0;
+    border: 2px solid #33C4E0;
+}
+.imagen{
+    width: 130px;
+}
+
+
+.nav-extended{
+    background-image: url(../img/gif-animado-constelaciones.gif);
+}
+
+
+
+
+#foto-consultor{
+    width: 130px;
+    height: 120px;
+}
+#tarjeta-consultor{
+    min-height: 150px;
+}
+
+
+
+.btn-reservar, .btn-conversaciones{
+    padding: 9px 4px 6px 27px;
+    background-color: currentColor;
+    border-radius: 5px;
+}
+
+.servicio-especial{
+    margin-top: 60px;
+}
+#tarjeta-producto{
+    min-height: 150px;
+    padding-left: 156px;
+}
+
+#foto-producto{
+    width: 150px;
+    height: 120px;
+    border-radius: 0px;
+}
+
+.buttons-pago{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.realizar-compra{
+    padding: 5px;
+    background-color: black;
+    border: 2px solid black;
+}
